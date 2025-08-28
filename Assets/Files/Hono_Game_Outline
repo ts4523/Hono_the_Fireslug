@@ -1,0 +1,54 @@
+This is a survival platformer game. You are a fire-slug named Hono in a frozen wasteland and
+have become lost during a blizzard. You must find your way back to camp before they
+leave without you. But don't stay out in the open! The subzero temperature will
+freeze you solid if you don't find shelter often, and large creatures will goble
+you up if they find you!
+
+MAP
+There are 4 regions that Hono must travel through to reach his family: Tundra, Glacier, Ice Caves,
+and Snow Field. Each environment has different challenges and enemies for Hono to overcome.
+
+Tundra: (TU_map_nx-x.csv)
+Hono starts in Tundra. This area is mostly flat, snow-covered ground. Ice slugs are the most common
+enemy here. There are also Mammoth Toads. Ice Storms are infrequent and there are many caves for Hono
+to hide in.
+
+Glacier: (GL_map_nx-x.csv)
+This region has steep cliffs of ice and is infested with Snow Owls that will snatch Hono without warning.
+The cliffs are also battered by strong winds that can blow Hono off to his death. Small caves provide some
+shelter but they are less numerous the higher you get.
+
+Ice Caves: (IC_map_nx-x.csv)
+The alternate route to Glacier runs under the ice. Rather than Snow Owls, Sabertooth Rats scurry around these
+dark caverns. There are large pools of freezing water that will kill Hono if he falls in. The only source of
+warmth are Campfires which Hono must make himself.
+
+Snow Fields: (SF_map_nx-x.csv)
+The last region is relatively peaceful but there is virtually nothing to hide under. The only enemies are Snow
+Owls which, although rare, are much harder to escape. At the end of the Snow Field is Hono's family camp where
+the game ends.
+
+There are some mazes that Hono can traverse. He can leave a trail of embers to mark his path,
+but the embers go out eventually and the Wind can erase them.
+
+ENEMIES
+Ice Slug:
+Ice Slugs are the most common obstacle on the surface. They see fire as a threat and throw snowballs
+to extinguish it. They are very weak and die quickly to any fire attacks, but they travel in swarms
+which makes killing all of them a very difficult task.
+
+Mammoth Toad:
+Large Mammoth Toads will attack Hono if they see him, using their long tongues to grab and
+swallow him or their heavy bodies to crush him. Their thick skin makes them immune to firespit
+and fireballs, but if the swallow a fireball the explosion will momentarily stun them, exposing
+their vulnerable blue underbelly.
+
+Sabertooth Rat:
+Sabertooth Rats are quick, using their claws and tails to slash at prey. They burrow underground
+and only come up at night because they detest bright lights. Hono's flame will attract them like moths
+but the flash-bang of a fireball will temporarily scare them away.
+
+Snow Owl:
+Snow Owls are large, silent birds that swoop down on Hono without warning. A well placed fireball can kill
+them but they are very quick and fly high to avoid danger. They will give up the hunt if the can't catch Hono
+within a certain amount of time, so hiding is the best defense.
